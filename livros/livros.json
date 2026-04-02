@@ -1,0 +1,23 @@
+{
+  "juvenil": [
+    {
+      "id": 1,
+      "titulo": "O Senhor dos Anèis",
+      "autor": "J.R.R. Tolkien"
+    }
+  ],
+  "infantil": [
+    {
+      "id": 2,
+      "titulo": "O Pequeno Príncipe",
+      "autor": "Antoine de Saint-Exupéry"
+    }
+  ],
+  "adulto": [
+    {
+      "id": 3,
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis"
+    }
+  ]
+}
