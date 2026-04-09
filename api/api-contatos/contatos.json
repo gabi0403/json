@@ -1,0 +1,30 @@
+{
+  "alunos": [
+    {
+      "nome": "João Santos",
+      "telefone": "11999999999"
+    },
+    {
+      "nome": "Fernanda",
+      "telefone": "12365465789"
+    },
+    {
+      "nome": "Evelyn Hugo",
+      "telefone": "6666666"
+    }
+  ],
+  "professores": [
+    {
+      "nome": "Ana Oliveira",
+      "telefone": "11923456789"
+    },
+    {
+      "nome": "Jorge Carneiro",
+      "telefone": "199987987"
+    },
+    {
+      "nome": "Diogo TB",
+      "telefone": "9909990999"
+    }
+  ]
+}
