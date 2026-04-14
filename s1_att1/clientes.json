@@ -1,0 +1,12 @@
+{
+  "id_cliente": 101,
+  "nome_completo": "Ana Silva Santos",
+  "data_nascimento": "1992-05-15",
+  "cpf": "123.456.789-00",
+  "email": "ana.silva@email.com",
+  "telefone": "(11) 98888-7777",
+  "rua": "Avenida Paulista",
+  "numero": 1500,
+  "cidade": "São Paulo",
+  "estado": "SP"
+}

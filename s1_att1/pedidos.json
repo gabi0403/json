@@ -1,0 +1,12 @@
+{
+  "id_pedido": 55021,
+  "data_compra": "2024-03-20",
+  "status": "Pagamento Aprovado",
+  "produto_nome": "Smartphone Modelo X",
+  "quantidade": 1,
+  "preco": 2500.00,
+  "valor_frete": 25.50,
+  "metodo_pagamento": "Cartão de Crédito",
+  "cupom_desconto": "BEMVINDO10",
+  "total_pago": 2525.50
+}
