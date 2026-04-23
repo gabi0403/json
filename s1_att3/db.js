@@ -1,29 +1,34 @@
-// Lista de usuários inicial
+// lista de usuarios para simular o banco (exercício 6)
 let usuarios = [
-  { id: 1, nome: "Alice" },
-  { id: 2, nome: "Bob" }
+  { id: 1, nome: "Diogo TB" },
+  { id: 2, nome: "Jorge" }
 ];
 
-// Funções para mexer nos usuários
+// funcoes para mexer nos dados (exercício 6)
 module.exports = {
-  // Retorna a lista inteira
-  buscarTodos: () => usuarios,
-
-  // Cria um novo usuário e coloca na lista
+  buscarTodos: () => {
+    return usuarios;
+  },
   adicionar: (nome) => {
-    const novo = { id: Date.now(), nome }; // Date.now cria um ID único baseado no tempo
+    const novo = { id: usuarios.length + 1, nome: nome };
     usuarios.push(novo);
     return novo;
   },
-
-  // Acha um usuário pelo ID
-  buscarPorId: (id) => usuarios.find(u => u.id == id),
-
-  // Deleta um usuário da lista
+  buscarPorId: (id) => {
+    return usuarios.find(u => u.id == id);
+  },
+  atualizar: (id, novoNome) => {
+    const index = usuarios.findIndex(u => u.id == id);
+    if (index !== -1) {
+      usuarios[index].nome = novoNome;
+      return usuarios[index];
+    }
+    return null;
+  },
   deletar: (id) => {
     const index = usuarios.findIndex(u => u.id == id);
     if (index !== -1) {
-      return usuarios.splice(index, 1); // Remove o item da lista
+      return usuarios.splice(index, 1);
     }
     return null;
   }
