@@ -11,6 +11,10 @@
     echo "<h1>Bem-vindo ao site da empresa.</h1>";
     echo "<p>Olá professor Jorge que vai corrigir isso</p>";
     echo "<h3>Nossa empresa ofereçe serviços...... </h3>";
+    echo "<ul>
+    <li>Contato</li>
+    <li>Produtos</li>
+    </ul>";
     ?>
 
 </body>
