@@ -7,15 +7,15 @@
 </head>
 <body>
     
-    <?php
-    echo "<h1>Bem-vindo ao site da empresa.</h1>";
+    <?php // aqui começa o php
+    echo "<h1>Bem-vindo ao site da empresa.</h1>"; //echo serve para imprimir na tela
     echo "<p>Olá professor Jorge que vai corrigir isso</p>";
     echo "<h3>Nossa empresa ofereçe serviços...... </h3>";
     echo "<ul>
     <li>Contato</li>
     <li>Produtos</li>
     </ul>";
-    ?>
+    ?> //aqui termina o php
 
 </body>
 </html>
